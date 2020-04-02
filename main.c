@@ -168,7 +168,7 @@ int get_process_line(char *arg[], char *line, char *pip_args[]) {
       jndex++;
     }
   }
-
+  free(temp);
   return 1;
 }
 
